@@ -162,7 +162,7 @@ async def all_handler(message: Message) -> None:
 
 
 async def main() -> None:
-    token = "7841210563:AAEtf1DZLdl_Wr59OlCEKGzJrj_3weoRRP0"
+    token = "TOKEN HERE"
     bot = Bot(token)
     await dp.start_polling(bot)
 
